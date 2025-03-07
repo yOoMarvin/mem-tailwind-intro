@@ -1,1 +1,13 @@
 @import "tailwindcss";
+
+.btn {
+  @apply px-6 py-3  font-medium text-white rounded-xl shadow-lg hover:shadow-sm hover:cursor-pointer focus:outline-none focus:ring-4 focus:ring-blue-400 focus:ring-offset-2  focus:shadow-sm transition duration-400 ease-in-out transform hover:translate-y-0.5;
+}
+
+.btn--filled {
+  @apply bg-blue-700 hover:bg-blue-800 focus:bg-blue-800;
+}
+
+.btn--outlined {
+  @apply bg-blue-50 text-blue-950 hover:bg-blue-100 border-4 border-blue-700 shadow-none hover:shadow-none focus:bg-blue-100;
+}
